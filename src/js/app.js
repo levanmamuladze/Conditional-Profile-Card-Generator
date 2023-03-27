@@ -40,11 +40,11 @@ function render(variables = {}) {
           <h3>${variables.city ? variables.city : "Miami"} ${
     variables.country ? variables.country : "USA"
   }</h3>
-          <ul class="${
+          <ul class=${
             variables.socialMediaPosition
               ? variables.socialMediaPosition
               : "position-right"
-          }">
+          }>
             <li><a href=${
               variables.twitter
                 ? variables.twitter
